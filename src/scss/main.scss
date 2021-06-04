@@ -1,5 +1,7 @@
 @import "_app";
 @import "_infobox";
+@import "_timingbox";
+@import "_commonstyle";
 @import "_fonts";
 
 /************* Сброс стилей Reset Meyer *************/
@@ -68,4 +70,5 @@ html, body {
 body {
   position: relative;
 	width: 100%;
+  background: #060958;
 }
