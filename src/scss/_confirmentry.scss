@@ -1,0 +1,64 @@
+.container_confirm_entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 12px;
+
+    width: 343px;
+    height: 156px;
+
+    background: #FFFFFF;
+    border: 1px solid #EDEFF2;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+
+    font-family: 'Montserrat', sans-serif, -apple-system,
+    'Montserrat', sans-serif;
+}
+
+.shadow_box {
+    display: flex;
+
+    width: 343px;
+    height: 56px;
+
+    filter: drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.04));
+    border-radius: 6px;
+    margin: 16px 0px;
+}
+
+.selected_date, .selected_time {
+    width: 100%;
+    text-align: center;
+}
+
+.selected_date {
+    border-right: 2px solid #E6E6E6;;
+}
+
+.selected_text {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5B5B5B;
+}
+
+.specified_date, .specified_time {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1D201F;
+}
+
+.make_appointment {
+    width: 100%;
+    padding: 10px;
+    background: #33BDE4;
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
