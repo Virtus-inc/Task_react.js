@@ -1,8 +1,8 @@
-.title, .title_date {
-    font-family: 'Montserrat', Arial, sans-serif, -apple-system,
-    'Montserrat', Arial, sans-serif;
+.title, .title_date, .title_time {
+    font-family: 'Montserrat', sans-serif, -apple-system,
+    'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 24px;
     text-align: center;
@@ -10,8 +10,14 @@
     margin-bottom: 16px;
 }
 
-.title_date {
-    font-weight: normal;
+.title_date, .title_time {
+    font-weight: 600;
+    font-size: 16px;
     margin-bottom: 0px;
     color: #5B5B5B;
+}
+
+.title_time {
+    text-align: left;
+    margin-bottom: 16px;
 }

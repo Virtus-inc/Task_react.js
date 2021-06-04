@@ -1,6 +1,8 @@
 .container_info {
     width: auto;
     margin-bottom: 32px;
+    font-family: 'Montserrat', sans-serif, -apple-system,
+    'Montserrat', sans-serif;
 }
 
 .avatar_and_text {
@@ -28,8 +30,6 @@
 }
 
 .type_text, .type_time {
-    font-family: 'Montserrat Regular', Arial, sans-serif, -apple-system,
-    'Montserrat Regular', Arial, sans-serif !important;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;

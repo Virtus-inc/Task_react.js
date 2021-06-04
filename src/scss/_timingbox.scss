@@ -1,24 +1,138 @@
 .container_timing {
     width: auto;
+    font-family: 'Montserrat', sans-serif, -apple-system,
+    'Montserrat', sans-serif;
 }
 .description_and_type_selection {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.type_selection {
-    display: block;
+    margin-bottom: 16px;
 }
 
 .image_colom {
     margin-right: 8px;
 }
 
+.date_picker::-webkit-scrollbar, .time_picker::-webkit-scrollbar {
+    display: none;
+}
+
+//-------------------------------------------
 //Date picker
+//-------------------------------------------
 .date_picker {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    overflow-x: hidden;
+    overflow-x: scroll;
+    margin-bottom: 32px;
+}
+
+.select_date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 8px;
+
+    width: 86px;
+    height: 92px;
+
+    background: #FFFFFF;
+    border: 1px solid #EDEFF2;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 16px;
+}
+
+.active_select_date {
+    background: #F0FBFF;
+    border: 1px solid #33BDE4;
+}
+
+.select_date:first-child {
+    margin-left: 8px;
+}
+
+.select_date:last-child {
+    margin-right: 8px;
+}
+
+.text_date, .active_text_date {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #5B5B5B;
+}
+
+.active_text_date {
+    color: #33BDE4;
+}
+
+.number_date, .active_number_date {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #1D201F;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
+}
+
+.active_number_date {
+    color: #33BDE4;
+}
+
+//-------------------------------------------
+//Time picker
+//-------------------------------------------
+
+.time_picker {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    overflow-x: scroll;
+}
+
+.off_time, .active_time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #C1C1C1;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 16px;
+}
+
+.active_time {
+    color: #33BDE4;
+    text-shadow: 0px 5px 8px rgba(0, 0, 0, 0.04);
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: bold;
 }
