@@ -20,6 +20,11 @@ function TimingBox() {
                     <img className="image_calendar" src={iconCalendar} alt="image calendar"/>
                 </div>
             </div>
+            <div className="date_picker">
+                <div className="select_date">
+                    
+                </div>
+            </div>
         </div>
     )
 }

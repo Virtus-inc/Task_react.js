@@ -61,6 +61,13 @@
 .image_colom {
   margin-right: 8px; }
 
+.date_picker {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  overflow-x: hidden; }
+
 .title, .title_date {
   font-family: 'Montserrat', Arial, sans-serif, -apple-system, 'Montserrat', Arial, sans-serif;
   font-style: normal;

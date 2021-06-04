@@ -13,3 +13,12 @@
 .image_colom {
     margin-right: 8px;
 }
+
+//Date picker
+.date_picker {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    overflow-x: hidden;
+}
